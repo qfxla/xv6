@@ -87,9 +87,10 @@
 				58,
 				59,
 				60,
-				62,
+				61,
 				63,
-				64
+				64,
+				65
 			]
 		},
 		{
@@ -194,9 +195,10 @@
 				58,
 				59,
 				60,
-				62,
+				61,
 				63,
-				64
+				64,
+				65
 			]
 		},
 		{
@@ -220,7 +222,7 @@
 				32,
 				36,
 				38,
-				61
+				62
 			]
 		}
 	],
@@ -531,6 +533,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "user/pingpong.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "user/primes.c",
 			"sourceGroupIndex" : 0
 		},
 		{
