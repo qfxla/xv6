@@ -9,7 +9,8 @@ file(GLOB SRC_FILES
         "${PROJECT_SOURCE_DIR}/user/*.h"
         "${PROJECT_SOURCE_DIR}/kernel/*.c"
         "${PROJECT_SOURCE_DIR}/kernel/*.h"
-        "${PROJECT_SOURCE_DIR}/test/*.c")
+        "${PROJECT_SOURCE_DIR}/test/*.c"
+        "${PROJECT_SOURCE_DIR}/mkfs/*.c")
 
 add_executable(${CMAKE_PROJECT_NAME} ${SRC_FILES})
 
