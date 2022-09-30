@@ -33,7 +33,7 @@ void prime(int pipe_read, int pipe_write) {
     }
     exit(0);
 }
-int main (int argc, char* argv) {
+int main (int argc, char* argv[]) {
     int fd[2];
     pipe(fd);
     char buf[MSGSIZE];
