@@ -1,15 +1,11 @@
 #include "types.h"
 #include "riscv.h"
+#include "param.h"
 #include "defs.h"
 #include "date.h"
-#include "param.h"
 #include "memlayout.h"
 #include "spinlock.h"
 #include "proc.h"
-#include "sysinfo.h"
-
-uint64 acquire_nproc();
-uint64 acquire_freemen();
 
 uint64
 sys_exit(void)
@@ -50,6 +46,7 @@ sys_sbrk(void)
 
   if(argint(0, &n) < 0)
     return -1;
+  
   addr = myproc()->sz;
   if(growproc(n) < 0)
     return -1;
@@ -61,6 +58,7 @@ sys_sleep(void)
 {
   int n;
   uint ticks0;
+
 
   if(argint(0, &n) < 0)
     return -1;
@@ -76,6 +74,16 @@ sys_sleep(void)
   release(&tickslock);
   return 0;
 }
+
+
+#ifdef LAB_PGTBL
+int
+sys_pgaccess(void)
+{
+  // lab pgtbl: your code here.
+  return 0;
+}
+#endif
 
 uint64
 sys_kill(void)
@@ -98,37 +106,4 @@ sys_uptime(void)
   xticks = ticks;
   release(&tickslock);
   return xticks;
-}
-
-// add a sys_trace() function in kernel/sysproc.c
-uint64
-sys_trace(void)
-{
-    int mask;
-    if (argint(0, &mask) < 0) {  // 取 a0 寄存器中的值返回给 mask
-        return -1;
-    }
-
-    struct proc *p = myproc();
-    p->trace_mask = mask;  // 把掩码放进进程控制块，方便后续调用
-    return 0;
-
-}
-
-uint64
-sys_sysinfo(void)
-{
-    struct sysinfo info;
-    uint64 addr;
-    struct proc *p = myproc();
-
-    info.freemem = acquire_freemen();
-    info.nproc = acquire_nproc();
-    if(argaddr(0, &addr) < 0) {
-        return -1;
-    }
-    if(copyout(p->pagetable, addr, (char *)&info, sizeof(info)) < 0) {
-        return -1;
-    }
-    return 0;
 }
