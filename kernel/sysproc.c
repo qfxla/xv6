@@ -100,6 +100,13 @@ sys_uptime(void)
 uint64
 sys_trace(void)
 {
-    printf("sys_trace: Hi!\n");
+    int mask;
+    if (argint(0, &mask) < 0) {  // 取 a0 寄存器中的值返回给 mask
+        return -1;
+    }
+
+    struct proc *p = myproc();
+    p->trace_mask = mask;  // 把掩码放进进程控制块，方便后续调用
     return 0;
+
 }
