@@ -199,6 +199,7 @@ UPROGS=\
 	$U/_pingpong\
 	$U/_xargs\
 	$U/_trace\
+	$U/_sysinfotest\
 
 
 
