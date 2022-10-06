@@ -704,30 +704,6 @@ kernel/vm.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/kernel/vm.c.s
 .PHONY : kernel/vm.c.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 mkfs/mkfs.obj: mkfs/mkfs.c.obj
 .PHONY : mkfs/mkfs.obj
 
@@ -799,30 +775,6 @@ user/echo.s: user/echo.c.s
 user/echo.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/echo.c.s
 .PHONY : user/echo.c.s
-
-user/find.obj: user/find.c.obj
-.PHONY : user/find.obj
-
-# target to build an object file
-user/find.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/find.c.obj
-.PHONY : user/find.c.obj
-
-user/find.i: user/find.c.i
-.PHONY : user/find.i
-
-# target to preprocess a source file
-user/find.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/find.c.i
-.PHONY : user/find.c.i
-
-user/find.s: user/find.c.s
-.PHONY : user/find.s
-
-# target to generate assembly for a file
-user/find.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/find.c.s
-.PHONY : user/find.c.s
 
 user/forktest.obj: user/forktest.c.obj
 .PHONY : user/forktest.obj
@@ -1016,53 +968,29 @@ user/mkdir.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/mkdir.c.s
 .PHONY : user/mkdir.c.s
 
-user/pingpong.obj: user/pingpong.c.obj
-.PHONY : user/pingpong.obj
+user/pgtbltest.obj: user/pgtbltest.c.obj
+.PHONY : user/pgtbltest.obj
 
 # target to build an object file
-user/pingpong.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/pingpong.c.obj
-.PHONY : user/pingpong.c.obj
+user/pgtbltest.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/pgtbltest.c.obj
+.PHONY : user/pgtbltest.c.obj
 
-user/pingpong.i: user/pingpong.c.i
-.PHONY : user/pingpong.i
-
-# target to preprocess a source file
-user/pingpong.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/pingpong.c.i
-.PHONY : user/pingpong.c.i
-
-user/pingpong.s: user/pingpong.c.s
-.PHONY : user/pingpong.s
-
-# target to generate assembly for a file
-user/pingpong.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/pingpong.c.s
-.PHONY : user/pingpong.c.s
-
-user/primes.obj: user/primes.c.obj
-.PHONY : user/primes.obj
-
-# target to build an object file
-user/primes.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/primes.c.obj
-.PHONY : user/primes.c.obj
-
-user/primes.i: user/primes.c.i
-.PHONY : user/primes.i
+user/pgtbltest.i: user/pgtbltest.c.i
+.PHONY : user/pgtbltest.i
 
 # target to preprocess a source file
-user/primes.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/primes.c.i
-.PHONY : user/primes.c.i
+user/pgtbltest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/pgtbltest.c.i
+.PHONY : user/pgtbltest.c.i
 
-user/primes.s: user/primes.c.s
-.PHONY : user/primes.s
+user/pgtbltest.s: user/pgtbltest.c.s
+.PHONY : user/pgtbltest.s
 
 # target to generate assembly for a file
-user/primes.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/primes.c.s
-.PHONY : user/primes.c.s
+user/pgtbltest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/pgtbltest.c.s
+.PHONY : user/pgtbltest.c.s
 
 user/printf.obj: user/printf.c.obj
 .PHONY : user/printf.obj
@@ -1136,30 +1064,6 @@ user/sh.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/sh.c.s
 .PHONY : user/sh.c.s
 
-user/sleep.obj: user/sleep.c.obj
-.PHONY : user/sleep.obj
-
-# target to build an object file
-user/sleep.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/sleep.c.obj
-.PHONY : user/sleep.c.obj
-
-user/sleep.i: user/sleep.c.i
-.PHONY : user/sleep.i
-
-# target to preprocess a source file
-user/sleep.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/sleep.c.i
-.PHONY : user/sleep.c.i
-
-user/sleep.s: user/sleep.c.s
-.PHONY : user/sleep.s
-
-# target to generate assembly for a file
-user/sleep.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/sleep.c.s
-.PHONY : user/sleep.c.s
-
 user/stressfs.obj: user/stressfs.c.obj
 .PHONY : user/stressfs.obj
 
@@ -1183,54 +1087,6 @@ user/stressfs.s: user/stressfs.c.s
 user/stressfs.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/stressfs.c.s
 .PHONY : user/stressfs.c.s
-
-user/sysinfotest.obj: user/sysinfotest.c.obj
-.PHONY : user/sysinfotest.obj
-
-# target to build an object file
-user/sysinfotest.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/sysinfotest.c.obj
-.PHONY : user/sysinfotest.c.obj
-
-user/sysinfotest.i: user/sysinfotest.c.i
-.PHONY : user/sysinfotest.i
-
-# target to preprocess a source file
-user/sysinfotest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/sysinfotest.c.i
-.PHONY : user/sysinfotest.c.i
-
-user/sysinfotest.s: user/sysinfotest.c.s
-.PHONY : user/sysinfotest.s
-
-# target to generate assembly for a file
-user/sysinfotest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/sysinfotest.c.s
-.PHONY : user/sysinfotest.c.s
-
-user/trace.obj: user/trace.c.obj
-.PHONY : user/trace.obj
-
-# target to build an object file
-user/trace.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/trace.c.obj
-.PHONY : user/trace.c.obj
-
-user/trace.i: user/trace.c.i
-.PHONY : user/trace.i
-
-# target to preprocess a source file
-user/trace.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/trace.c.i
-.PHONY : user/trace.c.i
-
-user/trace.s: user/trace.c.s
-.PHONY : user/trace.s
-
-# target to generate assembly for a file
-user/trace.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/trace.c.s
-.PHONY : user/trace.c.s
 
 user/ulib.obj: user/ulib.c.obj
 .PHONY : user/ulib.obj
@@ -1327,30 +1183,6 @@ user/wc.s: user/wc.c.s
 user/wc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/wc.c.s
 .PHONY : user/wc.c.s
-
-user/xargs.obj: user/xargs.c.obj
-.PHONY : user/xargs.obj
-
-# target to build an object file
-user/xargs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/xargs.c.obj
-.PHONY : user/xargs.c.obj
-
-user/xargs.i: user/xargs.c.i
-.PHONY : user/xargs.i
-
-# target to preprocess a source file
-user/xargs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/xargs.c.i
-.PHONY : user/xargs.c.i
-
-user/xargs.s: user/xargs.c.s
-.PHONY : user/xargs.s
-
-# target to generate assembly for a file
-user/xargs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6.dir\build.make CMakeFiles/xv6.dir/user/xargs.c.s
-.PHONY : user/xargs.c.s
 
 user/zombie.obj: user/zombie.c.obj
 .PHONY : user/zombie.obj
@@ -1457,9 +1289,6 @@ help:
 	@echo ... kernel/vm.obj
 	@echo ... kernel/vm.i
 	@echo ... kernel/vm.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... mkfs/mkfs.obj
 	@echo ... mkfs/mkfs.i
 	@echo ... mkfs/mkfs.s
@@ -1469,9 +1298,6 @@ help:
 	@echo ... user/echo.obj
 	@echo ... user/echo.i
 	@echo ... user/echo.s
-	@echo ... user/find.obj
-	@echo ... user/find.i
-	@echo ... user/find.s
 	@echo ... user/forktest.obj
 	@echo ... user/forktest.i
 	@echo ... user/forktest.s
@@ -1496,12 +1322,9 @@ help:
 	@echo ... user/mkdir.obj
 	@echo ... user/mkdir.i
 	@echo ... user/mkdir.s
-	@echo ... user/pingpong.obj
-	@echo ... user/pingpong.i
-	@echo ... user/pingpong.s
-	@echo ... user/primes.obj
-	@echo ... user/primes.i
-	@echo ... user/primes.s
+	@echo ... user/pgtbltest.obj
+	@echo ... user/pgtbltest.i
+	@echo ... user/pgtbltest.s
 	@echo ... user/printf.obj
 	@echo ... user/printf.i
 	@echo ... user/printf.s
@@ -1511,18 +1334,9 @@ help:
 	@echo ... user/sh.obj
 	@echo ... user/sh.i
 	@echo ... user/sh.s
-	@echo ... user/sleep.obj
-	@echo ... user/sleep.i
-	@echo ... user/sleep.s
 	@echo ... user/stressfs.obj
 	@echo ... user/stressfs.i
 	@echo ... user/stressfs.s
-	@echo ... user/sysinfotest.obj
-	@echo ... user/sysinfotest.i
-	@echo ... user/sysinfotest.s
-	@echo ... user/trace.obj
-	@echo ... user/trace.i
-	@echo ... user/trace.s
 	@echo ... user/ulib.obj
 	@echo ... user/ulib.i
 	@echo ... user/ulib.s
@@ -1535,9 +1349,6 @@ help:
 	@echo ... user/wc.obj
 	@echo ... user/wc.i
 	@echo ... user/wc.s
-	@echo ... user/xargs.obj
-	@echo ... user/xargs.i
-	@echo ... user/xargs.s
 	@echo ... user/zombie.obj
 	@echo ... user/zombie.i
 	@echo ... user/zombie.s

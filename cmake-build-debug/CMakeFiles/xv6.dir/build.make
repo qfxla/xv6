@@ -404,24 +404,10 @@ CMakeFiles/xv6.dir/kernel/vm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/kernel/vm.c.s"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\kernel\vm.c" -o CMakeFiles\xv6.dir\kernel\vm.c.s
 
-CMakeFiles/xv6.dir/main.cpp.obj: CMakeFiles/xv6.dir/flags.make
-CMakeFiles/xv6.dir/main.cpp.obj: ../main.cpp
-CMakeFiles/xv6.dir/main.cpp.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/xv6.dir/main.cpp.obj"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/xv6.dir/main.cpp.obj -MF CMakeFiles\xv6.dir\main.cpp.obj.d -o CMakeFiles\xv6.dir\main.cpp.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\main.cpp"
-
-CMakeFiles/xv6.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xv6.dir/main.cpp.i"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\main.cpp" > CMakeFiles\xv6.dir\main.cpp.i
-
-CMakeFiles/xv6.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xv6.dir/main.cpp.s"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\main.cpp" -o CMakeFiles\xv6.dir\main.cpp.s
-
 CMakeFiles/xv6.dir/mkfs/mkfs.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/mkfs/mkfs.c.obj: ../mkfs/mkfs.c
 CMakeFiles/xv6.dir/mkfs/mkfs.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/xv6.dir/mkfs/mkfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/xv6.dir/mkfs/mkfs.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/mkfs/mkfs.c.obj -MF CMakeFiles\xv6.dir\mkfs\mkfs.c.obj.d -o CMakeFiles\xv6.dir\mkfs\mkfs.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\mkfs\mkfs.c"
 
 CMakeFiles/xv6.dir/mkfs/mkfs.c.i: cmake_force
@@ -435,7 +421,7 @@ CMakeFiles/xv6.dir/mkfs/mkfs.c.s: cmake_force
 CMakeFiles/xv6.dir/user/cat.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/cat.c.obj: ../user/cat.c
 CMakeFiles/xv6.dir/user/cat.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/xv6.dir/user/cat.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/xv6.dir/user/cat.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/cat.c.obj -MF CMakeFiles\xv6.dir\user\cat.c.obj.d -o CMakeFiles\xv6.dir\user\cat.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\cat.c"
 
 CMakeFiles/xv6.dir/user/cat.c.i: cmake_force
@@ -449,7 +435,7 @@ CMakeFiles/xv6.dir/user/cat.c.s: cmake_force
 CMakeFiles/xv6.dir/user/echo.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/echo.c.obj: ../user/echo.c
 CMakeFiles/xv6.dir/user/echo.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/xv6.dir/user/echo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/xv6.dir/user/echo.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/echo.c.obj -MF CMakeFiles\xv6.dir\user\echo.c.obj.d -o CMakeFiles\xv6.dir\user\echo.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\echo.c"
 
 CMakeFiles/xv6.dir/user/echo.c.i: cmake_force
@@ -460,24 +446,10 @@ CMakeFiles/xv6.dir/user/echo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/user/echo.c.s"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\echo.c" -o CMakeFiles\xv6.dir\user\echo.c.s
 
-CMakeFiles/xv6.dir/user/find.c.obj: CMakeFiles/xv6.dir/flags.make
-CMakeFiles/xv6.dir/user/find.c.obj: ../user/find.c
-CMakeFiles/xv6.dir/user/find.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/xv6.dir/user/find.c.obj"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/find.c.obj -MF CMakeFiles\xv6.dir\user\find.c.obj.d -o CMakeFiles\xv6.dir\user\find.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\find.c"
-
-CMakeFiles/xv6.dir/user/find.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6.dir/user/find.c.i"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\find.c" > CMakeFiles\xv6.dir\user\find.c.i
-
-CMakeFiles/xv6.dir/user/find.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/user/find.c.s"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\find.c" -o CMakeFiles\xv6.dir\user\find.c.s
-
 CMakeFiles/xv6.dir/user/forktest.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/forktest.c.obj: ../user/forktest.c
 CMakeFiles/xv6.dir/user/forktest.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/xv6.dir/user/forktest.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/xv6.dir/user/forktest.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/forktest.c.obj -MF CMakeFiles\xv6.dir\user\forktest.c.obj.d -o CMakeFiles\xv6.dir\user\forktest.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\forktest.c"
 
 CMakeFiles/xv6.dir/user/forktest.c.i: cmake_force
@@ -491,7 +463,7 @@ CMakeFiles/xv6.dir/user/forktest.c.s: cmake_force
 CMakeFiles/xv6.dir/user/grep.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/grep.c.obj: ../user/grep.c
 CMakeFiles/xv6.dir/user/grep.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/xv6.dir/user/grep.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/xv6.dir/user/grep.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/grep.c.obj -MF CMakeFiles\xv6.dir\user\grep.c.obj.d -o CMakeFiles\xv6.dir\user\grep.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\grep.c"
 
 CMakeFiles/xv6.dir/user/grep.c.i: cmake_force
@@ -505,7 +477,7 @@ CMakeFiles/xv6.dir/user/grep.c.s: cmake_force
 CMakeFiles/xv6.dir/user/grind.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/grind.c.obj: ../user/grind.c
 CMakeFiles/xv6.dir/user/grind.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/xv6.dir/user/grind.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/xv6.dir/user/grind.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/grind.c.obj -MF CMakeFiles\xv6.dir\user\grind.c.obj.d -o CMakeFiles\xv6.dir\user\grind.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\grind.c"
 
 CMakeFiles/xv6.dir/user/grind.c.i: cmake_force
@@ -519,7 +491,7 @@ CMakeFiles/xv6.dir/user/grind.c.s: cmake_force
 CMakeFiles/xv6.dir/user/init.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/init.c.obj: ../user/init.c
 CMakeFiles/xv6.dir/user/init.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/xv6.dir/user/init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/xv6.dir/user/init.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/init.c.obj -MF CMakeFiles\xv6.dir\user\init.c.obj.d -o CMakeFiles\xv6.dir\user\init.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\init.c"
 
 CMakeFiles/xv6.dir/user/init.c.i: cmake_force
@@ -533,7 +505,7 @@ CMakeFiles/xv6.dir/user/init.c.s: cmake_force
 CMakeFiles/xv6.dir/user/kill.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/kill.c.obj: ../user/kill.c
 CMakeFiles/xv6.dir/user/kill.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/xv6.dir/user/kill.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/xv6.dir/user/kill.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/kill.c.obj -MF CMakeFiles\xv6.dir\user\kill.c.obj.d -o CMakeFiles\xv6.dir\user\kill.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\kill.c"
 
 CMakeFiles/xv6.dir/user/kill.c.i: cmake_force
@@ -547,7 +519,7 @@ CMakeFiles/xv6.dir/user/kill.c.s: cmake_force
 CMakeFiles/xv6.dir/user/ln.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/ln.c.obj: ../user/ln.c
 CMakeFiles/xv6.dir/user/ln.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/xv6.dir/user/ln.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/xv6.dir/user/ln.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/ln.c.obj -MF CMakeFiles\xv6.dir\user\ln.c.obj.d -o CMakeFiles\xv6.dir\user\ln.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\ln.c"
 
 CMakeFiles/xv6.dir/user/ln.c.i: cmake_force
@@ -561,7 +533,7 @@ CMakeFiles/xv6.dir/user/ln.c.s: cmake_force
 CMakeFiles/xv6.dir/user/ls.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/ls.c.obj: ../user/ls.c
 CMakeFiles/xv6.dir/user/ls.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/xv6.dir/user/ls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/xv6.dir/user/ls.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/ls.c.obj -MF CMakeFiles\xv6.dir\user\ls.c.obj.d -o CMakeFiles\xv6.dir\user\ls.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\ls.c"
 
 CMakeFiles/xv6.dir/user/ls.c.i: cmake_force
@@ -575,7 +547,7 @@ CMakeFiles/xv6.dir/user/ls.c.s: cmake_force
 CMakeFiles/xv6.dir/user/mkdir.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/mkdir.c.obj: ../user/mkdir.c
 CMakeFiles/xv6.dir/user/mkdir.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/xv6.dir/user/mkdir.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/xv6.dir/user/mkdir.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/mkdir.c.obj -MF CMakeFiles\xv6.dir\user\mkdir.c.obj.d -o CMakeFiles\xv6.dir\user\mkdir.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\mkdir.c"
 
 CMakeFiles/xv6.dir/user/mkdir.c.i: cmake_force
@@ -586,38 +558,24 @@ CMakeFiles/xv6.dir/user/mkdir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/user/mkdir.c.s"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\mkdir.c" -o CMakeFiles\xv6.dir\user\mkdir.c.s
 
-CMakeFiles/xv6.dir/user/pingpong.c.obj: CMakeFiles/xv6.dir/flags.make
-CMakeFiles/xv6.dir/user/pingpong.c.obj: ../user/pingpong.c
-CMakeFiles/xv6.dir/user/pingpong.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/xv6.dir/user/pingpong.c.obj"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/pingpong.c.obj -MF CMakeFiles\xv6.dir\user\pingpong.c.obj.d -o CMakeFiles\xv6.dir\user\pingpong.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\pingpong.c"
+CMakeFiles/xv6.dir/user/pgtbltest.c.obj: CMakeFiles/xv6.dir/flags.make
+CMakeFiles/xv6.dir/user/pgtbltest.c.obj: ../user/pgtbltest.c
+CMakeFiles/xv6.dir/user/pgtbltest.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/xv6.dir/user/pgtbltest.c.obj"
+	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/pgtbltest.c.obj -MF CMakeFiles\xv6.dir\user\pgtbltest.c.obj.d -o CMakeFiles\xv6.dir\user\pgtbltest.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\pgtbltest.c"
 
-CMakeFiles/xv6.dir/user/pingpong.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6.dir/user/pingpong.c.i"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\pingpong.c" > CMakeFiles\xv6.dir\user\pingpong.c.i
+CMakeFiles/xv6.dir/user/pgtbltest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6.dir/user/pgtbltest.c.i"
+	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\pgtbltest.c" > CMakeFiles\xv6.dir\user\pgtbltest.c.i
 
-CMakeFiles/xv6.dir/user/pingpong.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/user/pingpong.c.s"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\pingpong.c" -o CMakeFiles\xv6.dir\user\pingpong.c.s
-
-CMakeFiles/xv6.dir/user/primes.c.obj: CMakeFiles/xv6.dir/flags.make
-CMakeFiles/xv6.dir/user/primes.c.obj: ../user/primes.c
-CMakeFiles/xv6.dir/user/primes.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/xv6.dir/user/primes.c.obj"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/primes.c.obj -MF CMakeFiles\xv6.dir\user\primes.c.obj.d -o CMakeFiles\xv6.dir\user\primes.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\primes.c"
-
-CMakeFiles/xv6.dir/user/primes.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6.dir/user/primes.c.i"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\primes.c" > CMakeFiles\xv6.dir\user\primes.c.i
-
-CMakeFiles/xv6.dir/user/primes.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/user/primes.c.s"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\primes.c" -o CMakeFiles\xv6.dir\user\primes.c.s
+CMakeFiles/xv6.dir/user/pgtbltest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/user/pgtbltest.c.s"
+	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\pgtbltest.c" -o CMakeFiles\xv6.dir\user\pgtbltest.c.s
 
 CMakeFiles/xv6.dir/user/printf.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/printf.c.obj: ../user/printf.c
 CMakeFiles/xv6.dir/user/printf.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/xv6.dir/user/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/xv6.dir/user/printf.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/printf.c.obj -MF CMakeFiles\xv6.dir\user\printf.c.obj.d -o CMakeFiles\xv6.dir\user\printf.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\printf.c"
 
 CMakeFiles/xv6.dir/user/printf.c.i: cmake_force
@@ -631,7 +589,7 @@ CMakeFiles/xv6.dir/user/printf.c.s: cmake_force
 CMakeFiles/xv6.dir/user/rm.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/rm.c.obj: ../user/rm.c
 CMakeFiles/xv6.dir/user/rm.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/xv6.dir/user/rm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/xv6.dir/user/rm.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/rm.c.obj -MF CMakeFiles\xv6.dir\user\rm.c.obj.d -o CMakeFiles\xv6.dir\user\rm.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\rm.c"
 
 CMakeFiles/xv6.dir/user/rm.c.i: cmake_force
@@ -645,7 +603,7 @@ CMakeFiles/xv6.dir/user/rm.c.s: cmake_force
 CMakeFiles/xv6.dir/user/sh.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/sh.c.obj: ../user/sh.c
 CMakeFiles/xv6.dir/user/sh.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/xv6.dir/user/sh.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/xv6.dir/user/sh.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/sh.c.obj -MF CMakeFiles\xv6.dir\user\sh.c.obj.d -o CMakeFiles\xv6.dir\user\sh.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\sh.c"
 
 CMakeFiles/xv6.dir/user/sh.c.i: cmake_force
@@ -656,24 +614,10 @@ CMakeFiles/xv6.dir/user/sh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/user/sh.c.s"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\sh.c" -o CMakeFiles\xv6.dir\user\sh.c.s
 
-CMakeFiles/xv6.dir/user/sleep.c.obj: CMakeFiles/xv6.dir/flags.make
-CMakeFiles/xv6.dir/user/sleep.c.obj: ../user/sleep.c
-CMakeFiles/xv6.dir/user/sleep.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/xv6.dir/user/sleep.c.obj"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/sleep.c.obj -MF CMakeFiles\xv6.dir\user\sleep.c.obj.d -o CMakeFiles\xv6.dir\user\sleep.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\sleep.c"
-
-CMakeFiles/xv6.dir/user/sleep.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6.dir/user/sleep.c.i"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\sleep.c" > CMakeFiles\xv6.dir\user\sleep.c.i
-
-CMakeFiles/xv6.dir/user/sleep.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/user/sleep.c.s"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\sleep.c" -o CMakeFiles\xv6.dir\user\sleep.c.s
-
 CMakeFiles/xv6.dir/user/stressfs.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/stressfs.c.obj: ../user/stressfs.c
 CMakeFiles/xv6.dir/user/stressfs.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/xv6.dir/user/stressfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/xv6.dir/user/stressfs.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/stressfs.c.obj -MF CMakeFiles\xv6.dir\user\stressfs.c.obj.d -o CMakeFiles\xv6.dir\user\stressfs.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\stressfs.c"
 
 CMakeFiles/xv6.dir/user/stressfs.c.i: cmake_force
@@ -684,38 +628,10 @@ CMakeFiles/xv6.dir/user/stressfs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/user/stressfs.c.s"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\stressfs.c" -o CMakeFiles\xv6.dir\user\stressfs.c.s
 
-CMakeFiles/xv6.dir/user/sysinfotest.c.obj: CMakeFiles/xv6.dir/flags.make
-CMakeFiles/xv6.dir/user/sysinfotest.c.obj: ../user/sysinfotest.c
-CMakeFiles/xv6.dir/user/sysinfotest.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/xv6.dir/user/sysinfotest.c.obj"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/sysinfotest.c.obj -MF CMakeFiles\xv6.dir\user\sysinfotest.c.obj.d -o CMakeFiles\xv6.dir\user\sysinfotest.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\sysinfotest.c"
-
-CMakeFiles/xv6.dir/user/sysinfotest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6.dir/user/sysinfotest.c.i"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\sysinfotest.c" > CMakeFiles\xv6.dir\user\sysinfotest.c.i
-
-CMakeFiles/xv6.dir/user/sysinfotest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/user/sysinfotest.c.s"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\sysinfotest.c" -o CMakeFiles\xv6.dir\user\sysinfotest.c.s
-
-CMakeFiles/xv6.dir/user/trace.c.obj: CMakeFiles/xv6.dir/flags.make
-CMakeFiles/xv6.dir/user/trace.c.obj: ../user/trace.c
-CMakeFiles/xv6.dir/user/trace.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/xv6.dir/user/trace.c.obj"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/trace.c.obj -MF CMakeFiles\xv6.dir\user\trace.c.obj.d -o CMakeFiles\xv6.dir\user\trace.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\trace.c"
-
-CMakeFiles/xv6.dir/user/trace.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6.dir/user/trace.c.i"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\trace.c" > CMakeFiles\xv6.dir\user\trace.c.i
-
-CMakeFiles/xv6.dir/user/trace.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/user/trace.c.s"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\trace.c" -o CMakeFiles\xv6.dir\user\trace.c.s
-
 CMakeFiles/xv6.dir/user/ulib.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/ulib.c.obj: ../user/ulib.c
 CMakeFiles/xv6.dir/user/ulib.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/xv6.dir/user/ulib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/xv6.dir/user/ulib.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/ulib.c.obj -MF CMakeFiles\xv6.dir\user\ulib.c.obj.d -o CMakeFiles\xv6.dir\user\ulib.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\ulib.c"
 
 CMakeFiles/xv6.dir/user/ulib.c.i: cmake_force
@@ -729,7 +645,7 @@ CMakeFiles/xv6.dir/user/ulib.c.s: cmake_force
 CMakeFiles/xv6.dir/user/umalloc.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/umalloc.c.obj: ../user/umalloc.c
 CMakeFiles/xv6.dir/user/umalloc.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/xv6.dir/user/umalloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/xv6.dir/user/umalloc.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/umalloc.c.obj -MF CMakeFiles\xv6.dir\user\umalloc.c.obj.d -o CMakeFiles\xv6.dir\user\umalloc.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\umalloc.c"
 
 CMakeFiles/xv6.dir/user/umalloc.c.i: cmake_force
@@ -743,7 +659,7 @@ CMakeFiles/xv6.dir/user/umalloc.c.s: cmake_force
 CMakeFiles/xv6.dir/user/usertests.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/usertests.c.obj: ../user/usertests.c
 CMakeFiles/xv6.dir/user/usertests.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/xv6.dir/user/usertests.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/xv6.dir/user/usertests.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/usertests.c.obj -MF CMakeFiles\xv6.dir\user\usertests.c.obj.d -o CMakeFiles\xv6.dir\user\usertests.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\usertests.c"
 
 CMakeFiles/xv6.dir/user/usertests.c.i: cmake_force
@@ -757,7 +673,7 @@ CMakeFiles/xv6.dir/user/usertests.c.s: cmake_force
 CMakeFiles/xv6.dir/user/wc.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/wc.c.obj: ../user/wc.c
 CMakeFiles/xv6.dir/user/wc.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/xv6.dir/user/wc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/xv6.dir/user/wc.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/wc.c.obj -MF CMakeFiles\xv6.dir\user\wc.c.obj.d -o CMakeFiles\xv6.dir\user\wc.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\wc.c"
 
 CMakeFiles/xv6.dir/user/wc.c.i: cmake_force
@@ -768,24 +684,10 @@ CMakeFiles/xv6.dir/user/wc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/user/wc.c.s"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\wc.c" -o CMakeFiles\xv6.dir\user\wc.c.s
 
-CMakeFiles/xv6.dir/user/xargs.c.obj: CMakeFiles/xv6.dir/flags.make
-CMakeFiles/xv6.dir/user/xargs.c.obj: ../user/xargs.c
-CMakeFiles/xv6.dir/user/xargs.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/xv6.dir/user/xargs.c.obj"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/xargs.c.obj -MF CMakeFiles\xv6.dir\user\xargs.c.obj.d -o CMakeFiles\xv6.dir\user\xargs.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\xargs.c"
-
-CMakeFiles/xv6.dir/user/xargs.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/xv6.dir/user/xargs.c.i"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\xargs.c" > CMakeFiles\xv6.dir\user\xargs.c.i
-
-CMakeFiles/xv6.dir/user/xargs.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/xv6.dir/user/xargs.c.s"
-	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\xargs.c" -o CMakeFiles\xv6.dir\user\xargs.c.s
-
 CMakeFiles/xv6.dir/user/zombie.c.obj: CMakeFiles/xv6.dir/flags.make
 CMakeFiles/xv6.dir/user/zombie.c.obj: ../user/zombie.c
 CMakeFiles/xv6.dir/user/zombie.c.obj: CMakeFiles/xv6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/xv6.dir/user/zombie.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/xv6.dir/user/zombie.c.obj"
 	"D:\app\CLion 2022.2.3\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xv6.dir/user/zombie.c.obj -MF CMakeFiles\xv6.dir\user\zombie.c.obj.d -o CMakeFiles\xv6.dir\user\zombie.c.obj -c "D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\user\zombie.c"
 
 CMakeFiles/xv6.dir/user/zombie.c.i: cmake_force
@@ -822,11 +724,9 @@ xv6_OBJECTS = \
 "CMakeFiles/xv6.dir/kernel/uart.c.obj" \
 "CMakeFiles/xv6.dir/kernel/virtio_disk.c.obj" \
 "CMakeFiles/xv6.dir/kernel/vm.c.obj" \
-"CMakeFiles/xv6.dir/main.cpp.obj" \
 "CMakeFiles/xv6.dir/mkfs/mkfs.c.obj" \
 "CMakeFiles/xv6.dir/user/cat.c.obj" \
 "CMakeFiles/xv6.dir/user/echo.c.obj" \
-"CMakeFiles/xv6.dir/user/find.c.obj" \
 "CMakeFiles/xv6.dir/user/forktest.c.obj" \
 "CMakeFiles/xv6.dir/user/grep.c.obj" \
 "CMakeFiles/xv6.dir/user/grind.c.obj" \
@@ -835,20 +735,15 @@ xv6_OBJECTS = \
 "CMakeFiles/xv6.dir/user/ln.c.obj" \
 "CMakeFiles/xv6.dir/user/ls.c.obj" \
 "CMakeFiles/xv6.dir/user/mkdir.c.obj" \
-"CMakeFiles/xv6.dir/user/pingpong.c.obj" \
-"CMakeFiles/xv6.dir/user/primes.c.obj" \
+"CMakeFiles/xv6.dir/user/pgtbltest.c.obj" \
 "CMakeFiles/xv6.dir/user/printf.c.obj" \
 "CMakeFiles/xv6.dir/user/rm.c.obj" \
 "CMakeFiles/xv6.dir/user/sh.c.obj" \
-"CMakeFiles/xv6.dir/user/sleep.c.obj" \
 "CMakeFiles/xv6.dir/user/stressfs.c.obj" \
-"CMakeFiles/xv6.dir/user/sysinfotest.c.obj" \
-"CMakeFiles/xv6.dir/user/trace.c.obj" \
 "CMakeFiles/xv6.dir/user/ulib.c.obj" \
 "CMakeFiles/xv6.dir/user/umalloc.c.obj" \
 "CMakeFiles/xv6.dir/user/usertests.c.obj" \
 "CMakeFiles/xv6.dir/user/wc.c.obj" \
-"CMakeFiles/xv6.dir/user/xargs.c.obj" \
 "CMakeFiles/xv6.dir/user/zombie.c.obj"
 
 # External object files for target xv6
@@ -878,11 +773,9 @@ xv6.exe: CMakeFiles/xv6.dir/kernel/trap.c.obj
 xv6.exe: CMakeFiles/xv6.dir/kernel/uart.c.obj
 xv6.exe: CMakeFiles/xv6.dir/kernel/virtio_disk.c.obj
 xv6.exe: CMakeFiles/xv6.dir/kernel/vm.c.obj
-xv6.exe: CMakeFiles/xv6.dir/main.cpp.obj
 xv6.exe: CMakeFiles/xv6.dir/mkfs/mkfs.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/cat.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/echo.c.obj
-xv6.exe: CMakeFiles/xv6.dir/user/find.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/forktest.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/grep.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/grind.c.obj
@@ -891,26 +784,21 @@ xv6.exe: CMakeFiles/xv6.dir/user/kill.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/ln.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/ls.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/mkdir.c.obj
-xv6.exe: CMakeFiles/xv6.dir/user/pingpong.c.obj
-xv6.exe: CMakeFiles/xv6.dir/user/primes.c.obj
+xv6.exe: CMakeFiles/xv6.dir/user/pgtbltest.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/printf.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/rm.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/sh.c.obj
-xv6.exe: CMakeFiles/xv6.dir/user/sleep.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/stressfs.c.obj
-xv6.exe: CMakeFiles/xv6.dir/user/sysinfotest.c.obj
-xv6.exe: CMakeFiles/xv6.dir/user/trace.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/ulib.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/umalloc.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/usertests.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/wc.c.obj
-xv6.exe: CMakeFiles/xv6.dir/user/xargs.c.obj
 xv6.exe: CMakeFiles/xv6.dir/user/zombie.c.obj
 xv6.exe: CMakeFiles/xv6.dir/build.make
 xv6.exe: CMakeFiles/xv6.dir/linklibs.rsp
 xv6.exe: CMakeFiles/xv6.dir/objects1.rsp
 xv6.exe: CMakeFiles/xv6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Linking CXX executable xv6.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\app\CLion 2022.2.3\ClionProjects\6.S081\xv6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Linking C executable xv6.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\xv6.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

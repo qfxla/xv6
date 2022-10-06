@@ -63,11 +63,13 @@
 				30,
 				31,
 				33,
+				34,
 				35,
-				36,
-				38,
+				37,
+				39,
 				40,
 				41,
+				42,
 				43,
 				44,
 				45,
@@ -84,41 +86,9 @@
 				56,
 				57,
 				58,
-				59,
 				60,
 				61,
-				62,
-				63,
-				64,
-				65,
-				67,
-				68,
-				69,
-				70
-			]
-		},
-		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				},
-				{
-					"fragment" : "-std=gnu++11"
-				}
-			],
-			"language" : "CXX",
-			"languageStandard" : 
-			{
-				"backtraces" : 
-				[
-					1
-				],
-				"standard" : "11"
-			},
-			"sourceIndexes" : 
-			[
-				42
+				62
 			]
 		}
 	],
@@ -140,7 +110,7 @@
 				"role" : "libraries"
 			}
 		],
-		"language" : "CXX"
+		"language" : "C"
 	},
 	"name" : "xv6",
 	"nameOnDisk" : "xv6.exe",
@@ -174,9 +144,10 @@
 				30,
 				31,
 				33,
+				34,
 				35,
-				36,
-				38,
+				37,
+				39,
 				40,
 				41,
 				42,
@@ -196,17 +167,9 @@
 				56,
 				57,
 				58,
-				59,
 				60,
 				61,
-				62,
-				63,
-				64,
-				65,
-				67,
-				68,
-				69,
-				70
+				62
 			]
 		},
 		{
@@ -228,10 +191,9 @@
 				27,
 				29,
 				32,
-				34,
-				37,
-				39,
-				66
+				36,
+				38,
+				59
 			]
 		}
 	],
@@ -428,11 +390,6 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "kernel/sysinfo.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "kernel/sysproc.c",
 			"sourceGroupIndex" : 0
@@ -473,12 +430,6 @@
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 1,
-			"path" : "main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "mkfs/mkfs.c",
 			"sourceGroupIndex" : 0
@@ -493,12 +444,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "user/echo.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "user/find.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -552,13 +497,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "user/pingpong.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "user/primes.c",
+			"path" : "user/pgtbltest.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -582,25 +521,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "user/sleep.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
 			"path" : "user/stressfs.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "user/sysinfotest.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "user/trace.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -630,12 +551,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "user/wc.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "user/xargs.c",
 			"sourceGroupIndex" : 0
 		},
 		{
