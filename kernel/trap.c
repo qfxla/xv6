@@ -71,9 +71,11 @@ usertrap(void)
         uint64 va = r_stval();
         if (is_lazy_alloc_va(va)) { // 该虚拟地址是否合法
             if (lazy_alloc(va) < 0) {
-                printf("lazy_alloc fail!\n");
                 p->killed = 1;
             }
+        } else {
+            printf("用户进程正在试图访问一个非法的虚拟地址\n");
+            p->killed = 1;
         }
   } else {
     printf("usertrap(): unexpected scause %p pid=%d\n", r_scause(), p->pid);

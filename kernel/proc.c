@@ -264,6 +264,10 @@ is_lazy_alloc_va(uint64 va) {
     if (va >= p->sz) {
         return 0;
     }
+    // 用户栈下面的无效页面
+    if (va < PGROUNDDOWN(p->trapframe->sp) && va >= PGROUNDDOWN(p->trapframe->sp) - PGSIZE) {
+        return 0;
+    }
     return 1;
 }
 
