@@ -6,10 +6,6 @@
 #include "memlayout.h"
 #include "spinlock.h"
 #include "proc.h"
-#include "sysinfo.h"
-
-uint64 acquire_nproc();
-uint64 acquire_freemen();
 
 uint64
 sys_exit(void)
@@ -74,6 +70,7 @@ sys_sleep(void)
     sleep(&ticks, &tickslock);
   }
   release(&tickslock);
+  backtrace();
   return 0;
 }
 
@@ -98,37 +95,4 @@ sys_uptime(void)
   xticks = ticks;
   release(&tickslock);
   return xticks;
-}
-
-// add a sys_trace() function in kernel/sysproc.c
-uint64
-sys_trace(void)
-{
-    int mask;
-    if (argint(0, &mask) < 0) {  // 取 a0 寄存器中的值返回给 mask
-        return -1;
-    }
-
-    struct proc *p = myproc();
-    p->trace_mask = mask;  // 把掩码放进进程控制块，方便后续调用
-    return 0;
-
-}
-
-uint64
-sys_sysinfo(void)
-{
-    struct sysinfo info;
-    uint64 addr;
-    struct proc *p = myproc();
-
-    info.freemem = acquire_freemen();
-    info.nproc = acquire_nproc();
-    if(argaddr(0, &addr) < 0) {
-        return -1;
-    }
-    if(copyout(p->pagetable, addr, (char *)&info, sizeof(info)) < 0) {
-        return -1;
-    }
-    return 0;
 }
