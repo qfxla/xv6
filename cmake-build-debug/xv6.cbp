@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="xv6"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xv6">
+				<Option output="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/xv6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 xv6"/>
+					<CompileFile command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xv6/fast">
+				<Option output="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/xv6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/app/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 xv6/fast"/>
+					<CompileFile command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/app/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/bio.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/buf.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/console.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/date.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/defs.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/elf.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/exec.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/fcntl.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/file.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/file.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/fs.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/fs.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/kalloc.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/log.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/main.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/memlayout.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/param.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/pipe.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/plic.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/printf.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/proc.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/proc.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/ramdisk.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/riscv.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/sleeplock.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/sleeplock.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/spinlock.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/spinlock.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/start.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/stat.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/string.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/syscall.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/syscall.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/sysfile.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/sysproc.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/trap.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/types.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/uart.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/virtio.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/virtio_disk.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/kernel/vm.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/mkfs/mkfs.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/cat.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/echo.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/find.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/forktest.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/grep.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/grind.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/init.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/kill.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/ln.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/ls.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/mkdir.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/pingpong.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/primes.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/printf.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/rm.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/sh.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/sleep.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/stressfs.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/sysinfotest.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/trace.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/ulib.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/umalloc.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/user.h">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/usertests.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/uthread.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/wc.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/xargs.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/user/zombie.c">
+			<Option target="xv6"/>
+		</Unit>
+		<Unit filename="D:/app/CLion 2022.2.3/ClionProjects/6.S081/xv6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

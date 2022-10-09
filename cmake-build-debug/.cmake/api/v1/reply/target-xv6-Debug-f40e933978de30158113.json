@@ -68,6 +68,7 @@
 				37,
 				39,
 				40,
+				41,
 				42,
 				43,
 				44,
@@ -89,33 +90,12 @@
 				60,
 				61,
 				62,
-				64,
+				63,
 				65,
-				66
-			]
-		},
-		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				},
-				{
-					"fragment" : "-std=gnu++11"
-				}
-			],
-			"language" : "CXX",
-			"languageStandard" : 
-			{
-				"backtraces" : 
-				[
-					1
-				],
-				"standard" : "11"
-			},
-			"sourceIndexes" : 
-			[
-				41
+				66,
+				67,
+				68,
+				69
 			]
 		}
 	],
@@ -137,7 +117,7 @@
 				"role" : "libraries"
 			}
 		],
-		"language" : "CXX"
+		"language" : "C"
 	},
 	"name" : "xv6",
 	"nameOnDisk" : "xv6.exe",
@@ -198,9 +178,12 @@
 				60,
 				61,
 				62,
-				64,
+				63,
 				65,
-				66
+				66,
+				67,
+				68,
+				69
 			]
 		},
 		{
@@ -224,7 +207,7 @@
 				32,
 				36,
 				38,
-				63
+				64
 			]
 		}
 	],
@@ -461,12 +444,6 @@
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 1,
-			"path" : "main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "mkfs/mkfs.c",
 			"sourceGroupIndex" : 0
@@ -582,6 +559,18 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "user/sysinfotest.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "user/trace.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "user/ulib.c",
 			"sourceGroupIndex" : 0
 		},
@@ -605,7 +594,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "user/uthread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "user/wc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "user/xargs.c",
 			"sourceGroupIndex" : 0
 		},
 		{

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="my" confirmBeforeDeletion="false">
+    <option name="confirmBeforeDeletion" value="false" />
+    <serverData>
+      <paths name="my">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/usr/local/6.S081/dockerData/root/xv6" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
